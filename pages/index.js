@@ -40,7 +40,7 @@ const Homepage = () => (
             background-repeat: no-repeat;
             background-size: 100%;
             width: 100%;
-            min-height: 477px;
+            min-height: 55vh;
             overflow: hidden;
           }
 
