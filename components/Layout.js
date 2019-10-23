@@ -56,8 +56,13 @@ const Layout = props => (
         font-size: 36px;
       }
 
+      h3 {
+        font-size: 24px;
+      }
+
       p {
         margin: 0 0 10px;
+        color: #263240;
       }
 
       img {
