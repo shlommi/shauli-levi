@@ -22,7 +22,7 @@ const About = () => (
          <header>
             <h1>אודות</h1>
          </header>
-         <div className="about-shauli">
+         <article className="about-shauli">
                <img src="../static/images/shauli.PNG"  alt="about-shauli" width="450" />
                <p> 
                שמי שאולי רוה לוי ואני יועץ ומאבחן אישיות פסיכו-דיאגנוסטי, במגמת אסטרו-נומרולוגיה. אני מאבחן את האדם בעזרת מפת חיים אישית של האדם.
@@ -32,7 +32,7 @@ const About = () => (
                </p>
                <p>   המפה כן מגלה את ההשפעה המשפחתית והסביבתית של האדם אותו ספג במשך חייו. יש משקל רב בחייו של האדם העשויים להשפיע על תנאי החיים ולהטות את האדם ממודעות ומההכרה של מימוש צרכיו האישיים והרגשיים. מפת החיים היא הדנ"א של האדם ובה אפשר לגלות את המגרעות ואת תכונותיו.
             </p>
-         </div>
+         </article>
             <SubTitle title="לקוחות מספרים"/>
             <div className="comments-wrapper">
                <Gallery images={imagesColOne}/>
@@ -56,7 +56,7 @@ const About = () => (
                }
 
                header {
-                  margin: 70px auto;
+                  margin: 50px auto;
                }
                
                .about-wrapper {
@@ -91,6 +91,9 @@ const About = () => (
                }
                
                @media(max-width: 600px) {
+                  header {
+                     margin: 10px auto;
+                  }
 
                   h1  {
                      font-size: 32px;

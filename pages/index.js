@@ -28,7 +28,7 @@ const Homepage = () => (
       <style jsx>
         {`
           .homepage-wrapper {
-            width: 100%;
+            max-width: 100%;
           }
 
           .img-wrapper {
@@ -39,7 +39,7 @@ const Homepage = () => (
             background-repeat: no-repeat;
             background-size: 100%;
             width: 100%;
-            min-height: 55vh;
+            height: 55vh;
             overflow: hidden;
           }
 
@@ -52,8 +52,14 @@ const Homepage = () => (
           }
         
           @media(max-width: 600px) {
+
+            header {
+                  margin: 0 auto;
+                  padding:0
+            }
+
             .img-wrapper {
-              margin: 0;
+              margin: 0 auto;
             }
           }
         `}
