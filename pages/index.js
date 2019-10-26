@@ -27,7 +27,6 @@ const Homepage = () => (
       </section>
       <style jsx>
         {`
-       
           .homepage-wrapper {
             width: 100%;
           }
@@ -56,7 +55,6 @@ const Homepage = () => (
             .img-wrapper {
               margin: 0;
             }
-
           }
         `}
       </style>

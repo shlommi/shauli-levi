@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const Logo = () => (
+const Logo =  () => (
   <div className="logo">
     <Link href="/">
       <a>

@@ -3,7 +3,6 @@ import Footer from '../components/Footer';
 import ContactBar from './ContactBar';
 
 
-
 const Layout = props => (
   <>
     <ContactBar/>
@@ -78,9 +77,14 @@ const Layout = props => (
       .content-wrapper {
         min-height: 600px;
         text-align: center;
+      } 
+
+      @media(max-width: 600px) {
+        body {
+          font-size: 16px;
+        }
       }
-      
-    
+
 
     `}</style>
     </main>

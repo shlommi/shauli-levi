@@ -2,7 +2,11 @@ import Layout from '../components/Layout'
 
 const YeutzHachvana = () => (
     <Layout>
-      <h1> ייעוץ והכוונה</h1>
+      <section className="yeutz-wrapper">
+        <header>
+          <h1> ייעוץ והכוונה</h1>
+        </header>
+      </section>
     </Layout>   
 );
 

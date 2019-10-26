@@ -7,11 +7,12 @@ const SubTitle = ({title}) =>(
 				<div className="dash"></div>
 		  </div>
        <style jsx>{`
+		   
 		.title-wrapper {
 			color:  #263240;
 			font-size: 30px;
 			width: 100%;
-			margin: 50px auto;
+			margin: 30px auto;
 			display: inline-block;
 			text-align: center;
 		}
