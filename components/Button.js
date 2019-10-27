@@ -12,6 +12,7 @@ const Button = ({url, text, mt, mb}) => (
 
 		a.btn {
 			margin: 0 auto;
+			display:inline-block;
 			font-size: 18px;
 			color:#FFFFFF;
 			background-color:#263240; 

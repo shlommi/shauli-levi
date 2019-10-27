@@ -21,7 +21,7 @@ const Card = ({card}) => {
 					justify-content:flex-start;
 					max-width: 410px;
 					max-height: 680px;
-					margin: 10px;
+					margin: 20px;
 					border: 0.5 solid #333333;
 					box-shadow: 0px 3px 6px #00000029;
 				}
@@ -42,7 +42,7 @@ const Card = ({card}) => {
 
 				h1 {
 					font-size: 36px;
-					
+					margin: 20px 0 ;
 				}
 				p {
 					text-align: center;
