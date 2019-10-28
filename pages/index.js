@@ -19,7 +19,7 @@ const Homepage = () => (
           </p>
           <Button 
           url="/yeutz-hachvana" 
-          text="צרו קשר לקבלת ייעוץ"
+          text="אתם בדרך הנכונה, ליחצו !"
           mt="30"
           mb="50"
           />

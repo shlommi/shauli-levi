@@ -1,5 +1,7 @@
 import Layout from '../components/Layout'
 import CardList from '../components/CardList';
+import Button from '../components/Button';
+
 
 
 const YeutzHachvana = () => (
@@ -17,6 +19,12 @@ const YeutzHachvana = () => (
         <div className="yeutz-methods">
           <CardList/>
         </div>
+        <Button 
+          url="/contact" 
+          text="הגעתם ליעד, ליחצו !"
+          mt="30"
+          mb="50"
+          />
       </section>
       <style jsx>{`
           p {
