@@ -17,10 +17,10 @@ const Button = ({url, text, mt, mb}) => (
 			color:#FFFFFF;
 			background-color:#263240; 
 			padding: 8px 14px;
-			-webkit-animation: callToAction 0.5s linear   alternate infinite  ; /* Safari 4+ */
-            -moz-animation: callToAction 0.5s linear  alternate infinite ; /* Fx 5+ */
-            -o-animation: callToAction 0.5s linear   alternate infinite ; /* Opera 12+ */
-            animation: callToAction 0.5s linear   alternate infinite ; /* IE 10+, Fx 29+ */
+			-webkit-animation: callToAction 1s linear   alternate infinite  ; /* Safari 4+ */
+            -moz-animation: callToAction 1s linear  alternate infinite ; /* Fx 5+ */
+            -o-animation: callToAction 1s linear   alternate infinite ; /* Opera 12+ */
+            animation: callToAction 1s linear   alternate infinite ; /* IE 10+, Fx 29+ */
 			transition: transform 0.1s;
 		}
 
