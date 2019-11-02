@@ -2,7 +2,7 @@ import Layout from '../components/Layout';
 import Button from '../components/Button';
 
 const Homepage = () => (
-    <Layout>
+    <Layout title="דף הבית">
       <section className="homepage-wrapper">
         <header>
           <div className="img-wrapper"></div>

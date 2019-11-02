@@ -5,7 +5,7 @@ import Button from '../components/Button';
 
 
 const YeutzHachvana = () => (
-    <Layout>
+    <Layout title="ייעוץ והכוונה">
       <section className="yeutz-wrapper">
         <header>
           <h1> ייעוץ והכוונה</h1>

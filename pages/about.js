@@ -17,7 +17,7 @@ const imagesColTwo = [
 ];
 
 const About = () => (
-    <Layout>
+    <Layout title="אודות">
        <section className="about-wrapper">
          <header>
             <h1>אודות</h1>

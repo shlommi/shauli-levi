@@ -4,7 +4,7 @@ import FormContainer from '../components/FormContainer'
 
 
 const Contact = () => (
-  <Layout>
+  <Layout title="צור קשר">
   <section className="contact-wrapper">
     <header>
       <h1>צור קשר</h1>

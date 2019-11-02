@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 import Button from '../components/Button'
 
 const MapatHaim = () => (
-  <Layout>
+  <Layout title="מפת חיים">
   <section className="mapathaim-wrapper">
     <header>
       <h1>מפת חיים </h1>
