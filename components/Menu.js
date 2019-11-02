@@ -4,22 +4,22 @@ const Menu = () => (
   <nav>
     <ul className="menu">
       <li>
-        <Link href="/about">
+        <Link href="/about"  prefetch={false}>
           <a>אודות</a>
         </Link>
       </li>
       <li>
-        <Link href="/mapat-haim">
+        <Link href="/mapat-haim"  prefetch={false}>
           <a>מפת חיים</a>
         </Link>
       </li>
       <li>
-        <Link href="/yeutz-hachvana">
+        <Link href="/yeutz-hachvana"  prefetch={false}>
           <a>ייעוץ והכוונה</a>
         </Link>
       </li>
       <li>
-        <Link href="/contact">
+        <Link href="/contact"  prefetch={false}>
           <a> צור קשר</a>
         </Link>
       </li>
