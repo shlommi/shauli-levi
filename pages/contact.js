@@ -10,8 +10,7 @@ const Contact = () => (
       <h1>צור קשר</h1>
     </header>
     <div className="form-wrapper">
-      <p>אז מה שנותר עכשיו הוא להשאיר פרטים ושאולי רוה יחזור אליכם. חשוב להשאיר פרטים מדוייקים שכוללים שם מלא (שרשום בתעודת זהות) + תאריך לידה מלא.</p>
-      <p>תוכן האתר נכתב בלשון זכר מטעמי נוחיות, אך מיועד לשני המינים כאחד.</p>
+
     <FormContainer/>
     </div>
     <div className="form-bg-tab">
@@ -21,7 +20,7 @@ const Contact = () => (
   <style jsx>{`
       .contact-wrapper {
         max-width: 1070px;
-        margin: 0 auto;
+        margin: 0 auto 20px;
       }
       header {
         margin: 50px auto;
@@ -30,39 +29,53 @@ const Contact = () => (
       .form-wrapper {
         background-color: #F2E6D0;
         max-width: 1070px;
-        max-height: 800px ;
-        margin-bottom: 0;
-        padding: 50px 115px;
+        padding: 50px 115px 0;
         font-size: 22px;
+        margin: 0 auto;
       }
 
       p {
         margin-bottom: 10px;
         text-align: center;
       }
-
-
-      @media(max-width: 600px) {
-        p {
-          text-align: center;
-        } 
-        header {
-          margin: 10px auto;
-        }
-
-        h1 {
-          font-size: 32px;
-        } 
-
-        .form-wrapper {
-          max-width: 100%;
-          height: 35vh;
-          margin: 0 auto 30px;
-        }
       
+      @media(max-width: 600px) {
+        .form-wrapper {
+          font-size: 18px;
+          padding: 15px  20px 0;
+        }
+        p {
+          margin: 20px 20px;
+        }
       }
+    
   `}</style>
 </Layout>   
   );
   
   export default Contact;
+
+
+    // @media(max-width: 600px) {
+    //   .contact-wrapper {
+    //     margin: 30px auto ;
+    //   }
+    //   p {
+    //     text-align: center;
+    //   } 
+    //   header {
+    //     margin: 10px auto;
+    //   }
+
+    //   h1 {
+    //     font-size: 32px;
+    //   } 
+
+    //   .form-wrapper {
+    //     max-width: 100%;
+    //     padding: 0;
+    //     margin: 30px auto;
+    //     font-size: 18px;
+    //   }
+
+    // }
