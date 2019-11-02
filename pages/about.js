@@ -4,7 +4,7 @@ import Gallery from '../components/Gallery'
 import AnchorLink from '../components/AnchorLink'
 
 const imagesColOne = [
-   '/static/images/comment01.jpg',
+   '/static/images/comment01.JPG',
    '/static/images/comment02.JPG',
    '/static/images/comment03.JPG',
    '/static/images/comment04.JPG'
@@ -13,7 +13,7 @@ const imagesColOne = [
 
 const imagesColTwo = [
 
-   '/static/images/comment05.JPG'
+   '/static/images/comment05.jpg'
 ];
 
 const About = () => (
