@@ -1,39 +1,28 @@
 import Link from '../components/ActiveLink';
-import { useRouter } from 'next/router'
-
 
 const Menu = () =>  {
-  const router = useRouter()
 
   return (
     <nav>
       <ul className="menu">
         <li>
-          <Link href="/about"  prefetch={false}>
-            <a onMouseEnter={() => {
-            router.prefetch('/about')
-          }}>אודות</a>
+          <Link href="/about"  >
+            <a>אודות</a>
           </Link>
         </li>
         <li>
-          <Link href="/mapat-haim"  prefetch={false}>
-            <a onMouseEnter={() => {
-            router.prefetch('/mapat-haim')
-          }}>מפת חיים</a>
+          <Link href="/mapat-haim">
+            <a>מפת חיים</a>
           </Link>
         </li>
         <li>
-          <Link href="/yeutz-hachvana"  prefetch={false}>
-            <a onMouseEnter={() => {
-            router.prefetch('/yeutz-hachvana')
-          }}>ייעוץ והכוונה</a>
+          <Link href="/yeutz-hachvana" >
+            <a>ייעוץ והכוונה</a>
           </Link>
         </li>
         <li>
-          <Link href="/contact"  prefetch={false}>
-            <a onMouseEnter={() => {
-            router.prefetch('/contact')
-          }}> צור קשר</a>
+          <Link href="/contact" >
+            <a> צור קשר</a>
           </Link>
         </li>
       </ul>
