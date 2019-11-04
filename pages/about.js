@@ -3,6 +3,7 @@ import SubTitle from '../components/SubTitle'
 import Gallery from '../components/Gallery'
 import AnchorLink from '../components/AnchorLink'
 
+
 const imagesColOne = [
    '/static/images/comment01.jpg',
    '/static/images/comment02.JPG',
@@ -17,8 +18,8 @@ const imagesColTwo = [
 ];
 
 const About = () => (
-    <Layout title="אודות">
-       <section className="about-wrapper">
+      <Layout title="אודות">
+         <section className="about-wrapper">
          <header>
             <h1>אודות</h1>
          </header>
@@ -86,13 +87,13 @@ const About = () => (
                   margin: 10px 20px 20px 0;
                }
 
-
                .videos-wrapper {
                   justify-content: space-evenly;
                   align-items: center; 
                   margin: 40px auto;
                   display: flex;
                   flex-wrap: wrap;
+                  min-height: 700px;
                }
                
                @media(max-width: 600px) {
@@ -116,6 +117,11 @@ const About = () => (
                   .videos-wrapper {
                      margin: 10px auto;
 
+                  }
+
+                  p {
+                     margin-left: 10px;
+                     margin-right: 10px;
                   }
 
                }

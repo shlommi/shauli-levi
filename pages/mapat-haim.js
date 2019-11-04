@@ -37,14 +37,14 @@ const MapatHaim = () => (
         margin-bottom: 50px;
       }
 
+      article {
+        text-align: right;
+      }
+            
       .img-wrapper {
-        background: url('../static/images/black-and-white-light-man-172738.jpg');
-        background-origin: center;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        max-width: 100%;
-        height: 55vh;
+        background:transparent url('../static/images/black-and-white-light-man-172738.jpg')  no-repeat center center;
+        background-size: cover;
+        min-height: 500px;
         margin-bottom: 30px;
       }
 
@@ -53,7 +53,7 @@ const MapatHaim = () => (
           text-align: center;
         } 
         article {
-          margin-bottom: 100px;
+          margin: 0 10px 100px ;
         }
 
         header {
@@ -65,12 +65,8 @@ const MapatHaim = () => (
         } 
 
         .img-wrapper {
-          background-position: center;
-          background-size: right;
-          max-width: 100%;
-          height: 35vh;
+          min-height: 270px;
           margin: 0 auto 30px;
-          
         }
       
       }

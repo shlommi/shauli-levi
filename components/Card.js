@@ -20,7 +20,7 @@ const Card = ({card}) => {
 					align-items: center;
 					justify-content:flex-start;
 					max-width: 410px;
-					max-height: 680px;
+					max-height: 800px;
 					margin: 20px;
 					border: 0.5 solid #333333;
 					box-shadow: 0px 3px 6px #00000029;
@@ -28,6 +28,7 @@ const Card = ({card}) => {
 	
 				.card-img  {
 					overflow: hidden;
+					min-height: 250px;
 				}
 	
 				img {
@@ -48,7 +49,18 @@ const Card = ({card}) => {
 					text-align: center;
 					margin-bottom: 30px;
 				}
-		
+				
+				@media(max-width: 600px) {
+					
+				p {
+					text-align: center;
+					font-size: 16px;
+					margin-bottom: 10px;
+				}
+
+
+				}
+
 			
 
 			`}</style>

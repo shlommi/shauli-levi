@@ -19,6 +19,13 @@ const CardList = () => (
 				justify-content: center;
 				margin: 50px auto;
 			}
+
+		@media(max-width: 600px) {
+
+			.list-wrapper{
+				margin: 10px auto;
+			}	
+		}
 		`}</style>
 	</div>
 );

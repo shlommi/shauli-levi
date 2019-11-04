@@ -39,14 +39,14 @@ const YeutzHachvana = () => (
             margin: 50px auto;
           }
 
+          article {
+            text-align: right;
+          }
+            
           .img-wrapper {
-            background: url('../static/images/blank-daylight-direction-1638830.jpg');
-            background-origin: center;
-            background-position: top;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            max-width: 100%;
-            height: 55vh;
+            background:transparent url('../static/images/blank-daylight-direction-1638830.jpg')  no-repeat center center;
+            background-size: cover;
+            min-height: 500px;
             margin-bottom: 30px;
           }
 
@@ -60,7 +60,7 @@ const YeutzHachvana = () => (
               text-align: center;
             } 
             article {
-              margin-bottom: 30px;
+             margin: 0 10px 30px ;
             }
 
             header {
@@ -72,13 +72,10 @@ const YeutzHachvana = () => (
             } 
 
             .img-wrapper {
-              background-position: center;
-              background-size: right;
-              max-width: 100%;
-              height: 35vh;
+              min-height: 270px;
               margin: 0 auto 30px;
-              
-            }
+              background-position: right center;
+             }
           
           }
       `}</style>

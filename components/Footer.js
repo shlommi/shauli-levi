@@ -200,6 +200,7 @@ const Footer = () => (
             .footer-bottom {
               display: block;
               margin: 0 auto;
+              text-align: center;
               padding:0;
             }
           }

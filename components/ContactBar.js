@@ -52,6 +52,22 @@ const ContactBar = () => (
             text-shadow: 0.5px 0.5px 3px #fff;
           }
 
+          @media(max-width: 600px) { 
+
+            .contact-bar-inner {
+              justify-content: center;
+             }
+    
+            .icons img {
+               margin-left: 20px;
+            }
+
+            .phone {
+              font-size: 14px;
+              margin-left: 2px;
+            }
+
+          }
         
 
       

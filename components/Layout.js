@@ -89,7 +89,7 @@ const Layout = props => (
 
       @media(max-width: 600px) {
         body {
-          font-size: 16px;
+          font-size: 18px;
         }
       }
 

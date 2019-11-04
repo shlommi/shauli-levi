@@ -34,25 +34,21 @@ const Homepage = () => (
         {`
           .homepage-wrapper {
             max-width: 100%;
-            position: relative;
           }
 
           .card {
             position: absolute;
-            right: 1%;
+            right: 5%;
             top: 5%;
           }
 
           .img-wrapper {
             margin: 40px 0;
-            background: url('../static/images/sunset.jpg');
-            background-origin: center;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 100%;
-            width: 100%;
-            height: 55vh;
+            position: relative;
+            background:transparent url('../static/images/sunset.jpg')  no-repeat center center;
+            background-size: cover;
             overflow: hidden;
+            min-height: 500px;
           }
 
           article.homepage-info {
@@ -69,18 +65,27 @@ const Homepage = () => (
                 right: 5%;
                 top: 5%;
               }
+
           }
 
           @media(max-width: 600px) {
 
             header {
                   margin: 0 auto;
-                  padding:0
+                  padding:0;
+            }
+
+            article {
+              font-size: 18px;
+            }
+            p{
+              margin-left: 10px;
+              margin-right: 10px;
             }
 
             .img-wrapper {
-              margin: 0 auto;
-            }
+            min-height: 220px;
+          }
 
             .card {
              display:none;
