@@ -10,7 +10,7 @@ const Card = ({card}) => {
 			<div className="card-body">
 				<h1>{title}</h1>
 				<p>
-				    {info}
+				{info}
 				</p>
 			</div>
 			<style jsx>{`

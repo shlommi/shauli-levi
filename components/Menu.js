@@ -1,4 +1,5 @@
-import Link from '../components/ActiveLink';
+import Link from 'next/link';
+
 
 const Menu = () =>  {
 

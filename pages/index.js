@@ -1,11 +1,16 @@
 import Layout from '../components/Layout';
 import Button from '../components/Button';
+import AvatarCard from '../components/AvatarCard';
 
 const Homepage = () => (
     <Layout title="דף הבית">
       <section className="homepage-wrapper">
         <header>
-          <div className="img-wrapper"></div>
+          <div className="img-wrapper">
+            <div className="card">
+              <AvatarCard/>
+            </div>
+          </div>
         </header>
         <article className="homepage-info">
           <p>
@@ -29,6 +34,13 @@ const Homepage = () => (
         {`
           .homepage-wrapper {
             max-width: 100%;
+            position: relative;
+          }
+
+          .card {
+            position: absolute;
+            right: 1%;
+            top: 5%;
           }
 
           .img-wrapper {
@@ -50,7 +62,15 @@ const Homepage = () => (
             max-width: 750px;
             margin: 0 auto;
           }
-        
+          
+
+          @media(max-width: 800px) {
+              .card {
+                right: 5%;
+                top: 5%;
+              }
+          }
+
           @media(max-width: 600px) {
 
             header {
@@ -60,6 +80,10 @@ const Homepage = () => (
 
             .img-wrapper {
               margin: 0 auto;
+            }
+
+            .card {
+             display:none;
             }
           }
         `}

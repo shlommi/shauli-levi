@@ -5,9 +5,13 @@ const Footer = () => (
     <div className="footer-main">
       <ul className="footer-list">
         <li className="footer-list-item">
+        <Link href="/">
+          <a>
           <div className="ft-logo">
             <img src="../static/images/logo.png" alt="logo" />
           </div>
+          </a>
+        </Link>
         </li>
         <li className="footer-list-item">
           <h3>לימודי עליי...</h3>
