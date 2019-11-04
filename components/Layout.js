@@ -1,11 +1,18 @@
+import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ContactBar from './ContactBar';
 
 
-
 const Layout = props => (
   <>
+    <Head>
+      <title>
+        {props.title ? `${props.title} | ` : ''}
+        שאולי לוי-רוה
+      </title>
+      {props.description ? <meta name="description" content={props.description} /> : null}
+    </Head>
     <ContactBar/>
     <main className="site-wrapper">
         <Header/>
@@ -56,8 +63,13 @@ const Layout = props => (
         font-size: 36px;
       }
 
+      h3 {
+        font-size: 24px;
+      }
+
       p {
         margin: 0 0 10px;
+        color: #263240;
       }
 
       img {
@@ -73,9 +85,14 @@ const Layout = props => (
       .content-wrapper {
         min-height: 600px;
         text-align: center;
+      } 
+
+      @media(max-width: 600px) {
+        body {
+          font-size: 16px;
+        }
       }
-      
-    
+
 
     `}</style>
     </main>
