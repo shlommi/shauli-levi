@@ -34,6 +34,12 @@ const Menu = () =>  {
               list-style: none;
               display: flex;
             }
+
+            li {
+              position:relative;
+
+            }
+
             .menu li a {
               font-size: 23px;
               color:#263240;
@@ -43,10 +49,26 @@ const Menu = () =>  {
               text-decoration: none;
             }
   
-            .menu li a:hover {
-              opacity: 0.7;
-              color:  #877450;
+            .menu li a::before {
+              background-color: #877450;
+              position: absolute;
+              display:inline-block;
+              content:"";
+              width: 40%;
+              height: 1px;
+              bottom:0;
+              left:0;
+              right: 0;
+              margin: 0 auto;
+              opacity: 0;
+              transition: all 0.7s;
             }
+  
+
+            .menu li a:hover::before {
+              opacity: 1;
+            }
+
   
               @media (max-width: 600px) {
                 .menu {

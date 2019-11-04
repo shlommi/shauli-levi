@@ -15,7 +15,6 @@ const Gallery = ({images}) => (
 			img {
 				margin-bottom: 2em;
 				box-shadow: 0px 3px 6px #00000029;
-
 			}
 
 			@media (max-width: 600px) {

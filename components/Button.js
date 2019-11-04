@@ -17,12 +17,16 @@ const Button = ({url, text, mt, mb}) => (
 			color:#FFFFFF;
 			background-color:#263240; 
 			padding: 8px 14px;
+			transition: all 0.1s ease;
 		}
-
+		a.btn:hover {
+            text-shadow: 1px 1px 30px #fff;
+		}
 
 		a.btn:active {
-			box-shadow: 2px 2px  #877450;
+			box-shadow: 2px 2px 3px #877450;
 		}
+
 		`}</style>
 	</>
 )

@@ -144,6 +144,14 @@ const Footer = () => (
 
           .navigator-list li a {
             color:#FFFFFF;
+            transition: all 0.1s linear;
+
+          }
+
+          .navigator-list li:hover {
+            color:#FFFFFF;
+            transform: scale(1.1);
+            text-shadow: 0.5px 0.5px 3px #fff;
           }
 
           .footer-bottom {

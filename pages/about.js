@@ -23,7 +23,7 @@ const About = () => (
             <h1>אודות</h1>
          </header>
          <article className="about-shauli">
-               <img src="../static/images/shauli.PNG"  alt="about-shauli" width="450" />
+               <img src="../static/images/photo02.jpeg"  alt="about-shauli" width="640"  />
                <p> 
                שמי שאולי רוה לוי ואני יועץ ומאבחן אישיות פסיכו-דיאגנוסטי, במגמת אסטרו-נומרולוגיה. אני מאבחן את האדם בעזרת מפת חיים אישית של האדם.
                </p>
@@ -50,7 +50,7 @@ const About = () => (
       </section>
          <style jsx>
             {`
-            
+
                p {
                   margin-bottom: 10px;
                }
@@ -63,8 +63,13 @@ const About = () => (
                   max-width: 1070px;
                   margin: 50px auto;
                }
+
+               img {
+                  box-shadow: 0px 3px 6px #00000029;
+               
+               }
                .about-shauli {
-                  margin: 0 auto 100px;
+                  margin: 0 auto 50px;
                   max-width: 950px;
                   text-align: right;
                }
