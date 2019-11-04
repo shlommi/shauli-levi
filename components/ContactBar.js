@@ -47,6 +47,14 @@ const ContactBar = () => (
           .icons img {
             margin-left: 30px;
           }
+          .icons img:hover {
+            transform: scale(1.1);
+            text-shadow: 0.5px 0.5px 3px #fff;
+          }
+
+        
+
+      
           
     `}</style>
   </aside>
