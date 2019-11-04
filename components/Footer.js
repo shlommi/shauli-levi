@@ -5,9 +5,13 @@ const Footer = () => (
     <div className="footer-main">
       <ul className="footer-list">
         <li className="footer-list-item">
+        <Link href="/">
+          <a>
           <div className="ft-logo">
             <img src="../static/images/logo.png" alt="logo" />
           </div>
+          </a>
+        </Link>
         </li>
         <li className="footer-list-item">
           <h3>לימודי עליי...</h3>
@@ -140,6 +144,14 @@ const Footer = () => (
 
           .navigator-list li a {
             color:#FFFFFF;
+            transition: all 0.1s linear;
+
+          }
+
+          .navigator-list li:hover {
+            color:#FFFFFF;
+            transform: scale(1.1);
+            text-shadow: 0.5px 0.5px 3px #fff;
           }
 
           .footer-bottom {

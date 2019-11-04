@@ -1,11 +1,16 @@
 import Layout from '../components/Layout';
 import Button from '../components/Button';
+import AvatarCard from '../components/AvatarCard';
 
 const Homepage = () => (
-    <Layout>
+    <Layout title="דף הבית">
       <section className="homepage-wrapper">
         <header>
-          <div className="img-wrapper"></div>
+          <div className="img-wrapper">
+            <div className="card">
+              <AvatarCard/>
+            </div>
+          </div>
         </header>
         <article className="homepage-info">
           <p>
@@ -19,7 +24,7 @@ const Homepage = () => (
           </p>
           <Button 
           url="/yeutz-hachvana" 
-          text="צרו קשר לקבלת ייעוץ"
+          text="אתם בדרך הנכונה, ליחצו !"
           mt="30"
           mb="50"
           />
@@ -27,9 +32,15 @@ const Homepage = () => (
       </section>
       <style jsx>
         {`
-       
           .homepage-wrapper {
-            width: 100%;
+            max-width: 100%;
+            position: relative;
+          }
+
+          .card {
+            position: absolute;
+            right: 1%;
+            top: 5%;
           }
 
           .img-wrapper {
@@ -40,7 +51,7 @@ const Homepage = () => (
             background-repeat: no-repeat;
             background-size: 100%;
             width: 100%;
-            min-height: 477px;
+            height: 55vh;
             overflow: hidden;
           }
 
@@ -51,12 +62,29 @@ const Homepage = () => (
             max-width: 750px;
             margin: 0 auto;
           }
-        
+          
+
+          @media(max-width: 800px) {
+              .card {
+                right: 5%;
+                top: 5%;
+              }
+          }
+
           @media(max-width: 600px) {
-            .img-wrapper {
-              margin: 0;
+
+            header {
+                  margin: 0 auto;
+                  padding:0
             }
 
+            .img-wrapper {
+              margin: 0 auto;
+            }
+
+            .card {
+             display:none;
+            }
           }
         `}
       </style>
