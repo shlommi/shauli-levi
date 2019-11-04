@@ -54,9 +54,9 @@ const Menu = () =>  {
               position: absolute;
               display:inline-block;
               content:"";
-              width: 40%;
+              width: 50%;
               height: 1px;
-              bottom:0;
+              bottom:-10px;
               left:0;
               right: 0;
               margin: 0 auto;

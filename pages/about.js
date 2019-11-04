@@ -23,7 +23,7 @@ const About = () => (
             <h1>אודות</h1>
          </header>
          <article className="about-shauli">
-               <img src="../static/images/photo02.jpeg"  alt="about-shauli" width="640"  />
+               <img src="../static/images/photo02.jpg"  alt="about-shauli" width="640"  />
                <p> 
                שמי שאולי רוה לוי ואני יועץ ומאבחן אישיות פסיכו-דיאגנוסטי, במגמת אסטרו-נומרולוגיה. אני מאבחן את האדם בעזרת מפת חיים אישית של האדם.
                </p>
