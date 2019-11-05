@@ -21,6 +21,8 @@ const ContactBar = () => (
       </div>
     </div>
     <style jsx>{`
+
+
          .contact-bar {
             position: fixed;
             width: 100%;
@@ -42,6 +44,7 @@ const ContactBar = () => (
             display: flex;
             align-items: center;
             justify-content: space-evenly;
+            user-select: none;
           }
     
           .icons img {

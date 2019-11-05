@@ -9,7 +9,7 @@ const Layout = props => (
     <Head>
       <title>
         {props.title ? `${props.title} | ` : ''}
-        שאולי לוי-רוה
+        שאולי רוה-לוי
       </title>
       {props.description ? <meta name="description" content={props.description} /> : null}
     </Head>
@@ -31,6 +31,7 @@ const Layout = props => (
       html {
         direction: rtl;
         -webkit-locale: "he-IL";
+        outline: none;
       }
 
       body {

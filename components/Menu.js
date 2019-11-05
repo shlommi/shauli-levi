@@ -54,9 +54,9 @@ const Menu = () =>  {
               position: absolute;
               display:inline-block;
               content:"";
-              width: 50%;
-              height: 1px;
-              bottom:-10px;
+              width: 60%;
+              height: 3px;
+              bottom:-3px;
               left:0;
               right: 0;
               margin: 0 auto;
@@ -66,7 +66,7 @@ const Menu = () =>  {
   
 
             .menu li a:hover::before {
-              opacity: 1;
+              opacity: 0.5;
             }
 
   

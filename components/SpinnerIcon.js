@@ -244,6 +244,16 @@ const SpinnerIcon  =  () => {
 				text-align: center;
 				opacity: 0.4;
 			}
+
+			svg {
+					display: block;
+					width: 100px;
+					height: 100px;
+					margin: 0 auto;
+				}
+
+			}
+
 		
 		`}</style>
 		</div>

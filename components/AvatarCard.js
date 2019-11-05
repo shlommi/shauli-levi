@@ -4,7 +4,7 @@ const AvatarCard  = () => {
 	return (
 		<div className="card">
 			<div className="inner-card">
-				<h1>היי שמי שאולי לוי-רוה</h1> 
+				<h1>היי שמי שאולי רוה-לוי</h1> 
 				<p>נומרולוג גרפולוג ויועץ-עסקי</p> 
 				<Button 
 				url="/yeutz-hachvana" 

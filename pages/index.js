@@ -6,7 +6,7 @@ const Homepage = () => (
     <Layout title="דף הבית">
       <section className="homepage-wrapper">
         <header>
-          <div className="img-wrapper">
+          <div className="img-wrapper" >
             <div className="card">
               <AvatarCard/>
             </div>
