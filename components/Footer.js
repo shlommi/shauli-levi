@@ -14,7 +14,7 @@ const Footer = () => (
         </Link>
         </li>
         <li className="footer-list-item">
-          <h3>לימודי עליי...</h3>
+          <h3>לימדו עליי...</h3>
           <ul className="navigator-list">
             <li>
               <Link href="/">

@@ -54,18 +54,18 @@ const ContactBar = () => (
 
           @media(max-width: 600px) { 
 
-            .contact-bar-inner {
-              justify-content: center;
-             }
+          .contact-bar-inner {
+              justify-content: space-evenly;
+          }
     
-            .icons img {
-               margin-left: 20px;
-            }
+          .icons img {
+              margin-left: 25px;
+          }
 
-            .phone {
+          .phone {
               font-size: 14px;
               margin-left: 2px;
-            }
+          }
 
           }
         
