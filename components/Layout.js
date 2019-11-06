@@ -77,6 +77,9 @@ const Layout = props => (
         max-width: 100%;
       }
 
+      textarea {
+        resize: none;
+      }
       /* Layout */
 
         .site-wrapper {

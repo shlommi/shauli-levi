@@ -51,6 +51,7 @@ const MapatHaim = () => {
           text-align: right;
         }
               
+                    
         img {
           margin: 0 auto 30px;
           width:1070px;  
@@ -74,8 +75,8 @@ const MapatHaim = () => {
           } 
 
           img {
-            height: 270px;
-            width: 375px;
+            height: 276px;
+            width: 100%;
           }
         
         }

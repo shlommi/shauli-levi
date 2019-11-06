@@ -35,7 +35,7 @@ const About = () => {
          <div  style={{display: loading ? "block" : "none"}}>
 				<SpinnerIcon/>
 			</div>  
-            <img onLoad={handleLoading} style={{display: loading ? "none" : "block"}} src="../static/images/photo02.jpg"  alt="about-shauli" width="640"  />
+            <img onLoad={handleLoading}   style={{display: loading ? "none" : "block"}} src="../static/images/photo02.jpg"  alt="about-shauli" width="640"  />
                <p> 
                שמי שאולי רוה לוי ואני יועץ ומאבחן אישיות פסיכו-דיאגנוסטי, במגמת אסטרו-נומרולוגיה. אני מאבחן את האדם בעזרת מפת חיים אישית של האדם.
                </p>
@@ -119,7 +119,8 @@ const About = () => {
                   .about-shauli img{
                      float: none;
                      display: block;
-                     margin: 0 auto 30px;
+                     margin: 0 auto;
+
                   }
                   .about-shauli {
                      margin: 0 auto;
