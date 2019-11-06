@@ -79,7 +79,6 @@ const About = () => {
 
                img {
                   box-shadow: 0px 3px 6px #00000029;
-               
                }
                .about-shauli {
                   margin: 0 auto 50px;
@@ -119,8 +118,7 @@ const About = () => {
                   .about-shauli img{
                      float: none;
                      display: block;
-                     margin: 0 auto;
-
+                     margin: 0 auto 30px;
                   }
                   .about-shauli {
                      margin: 0 auto;
