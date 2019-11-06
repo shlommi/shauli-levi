@@ -48,12 +48,21 @@ const Footer = () => (
           <ul className="navigator-list">
             <li>
                 <a href="https://www.google.com/maps/place/%D7%A9%D7%90%D7%95%D7%9C%D7%99+%D7%9C%D7%95%D7%99+-+%D7%A0%D7%95%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92%E2%80%AD/@31.939953,34.832008,15z/data=!4m2!3m1!1s0x0:0xd0c541270f5d9990?sa=X&ved=2ahUKEwiug4jsuKPlAhWSfFAKHYLwBX0Q_BIwE3oECA0QCA"  target="_blank" >
-                  שדרות האלונים,<br /> באר-יעקב
+                <svg width="25" style={{fill: 'white', marginLeft: '5px'}} viewBox="0 0 512 512">
+                  <path d="M256 48c-79.5 0-144 59.9-144 133.7 0 104 144 282.3 144 282.3s144-178.3 144-282.3C400 107.9 335.5 48 256 48zm0 190.9c-25.9 0-46.9-21-46.9-46.9s21-46.9 46.9-46.9 46.9 21 46.9 46.9-21 46.9-46.9 46.9z"></path>
+                </svg>
+                 
+                  איך להגיע?
                 </a>
             </li>
             <li>
               <Link href="/contact">
-                <a target="_blank">הודעה למייל </a>
+                <a>
+                <svg width="25" style={{fill: 'white', marginLeft: '5px', marginBottom: '-3px'}} viewBox="0 0 512 512">
+                  <path d="M480 201.667c0-14.933-7.469-28.803-20.271-36.266L256 64 52.271 165.401C40.531 172.864 32 186.734 32 201.667v203.666C32 428.802 51.197 448 74.666 448h362.668C460.803 448 480 428.802 480 405.333V201.667zM256 304L84.631 192 256 106.667 427.369 192 256 304z"></path>
+                </svg>
+                  הודעה למייל   
+                </a>
               </Link>
             </li>
             <li>
@@ -142,10 +151,14 @@ const Footer = () => (
             padding:0;
           }
 
+          li {
+            margin-bottom: 5px;
+
+          }
+
           .navigator-list li a {
             color:#FFFFFF;
             transition: all 0.1s linear;
-
           }
 
           .navigator-list li:hover {
