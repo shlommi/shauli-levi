@@ -4,10 +4,10 @@ const ContactBar = () => (
     <aside className="contact-bar">
     <div className="contact-bar-inner">
       <div className="icons">
-          <a href="https://wa.me/972524425859" target="_blank"  >
+          <a href="https://wa.me/972524425859" target="_blank"   rel="noopener noreferrer" >
             <img src="/static/icons/whatsapp.png" alt="whatsapp" width="19.50"/>
           </a>
-          <a href="https://www.facebook.com/pages/%D7%A9%D7%90%D7%95%D7%9C%D7%99-%D7%9C%D7%95%D7%99-%D7%90%D7%A1%D7%98%D7%A8%D7%95-%D7%A0%D7%95%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92-%D7%99%D7%95%D7%A2%D7%A5-%D7%95%D7%9E%D7%90%D7%91%D7%97%D7%9F/151852714842615"  target="_blank" >
+          <a href="https://www.facebook.com/pages/%D7%A9%D7%90%D7%95%D7%9C%D7%99-%D7%9C%D7%95%D7%99-%D7%90%D7%A1%D7%98%D7%A8%D7%95-%D7%A0%D7%95%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92-%D7%99%D7%95%D7%A2%D7%A5-%D7%95%D7%9E%D7%90%D7%91%D7%97%D7%9F/151852714842615"  target="_blank"  rel="noopener noreferrer" >
             <img src="/static/icons/facebook.png" alt="facebook" width="18.35"/>
           </a>
         <Link href="/contact">

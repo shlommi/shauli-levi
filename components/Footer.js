@@ -47,7 +47,7 @@ const Footer = () => (
           <h3>דברו אליי...</h3>
           <ul className="navigator-list">
             <li>
-                <a href="https://www.google.com/maps/place/%D7%A9%D7%90%D7%95%D7%9C%D7%99+%D7%9C%D7%95%D7%99+-+%D7%A0%D7%95%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92%E2%80%AD/@31.939953,34.832008,15z/data=!4m2!3m1!1s0x0:0xd0c541270f5d9990?sa=X&ved=2ahUKEwiug4jsuKPlAhWSfFAKHYLwBX0Q_BIwE3oECA0QCA"  target="_blank" >
+                <a href="https://www.google.com/maps/place/%D7%A9%D7%90%D7%95%D7%9C%D7%99+%D7%9C%D7%95%D7%99+-+%D7%A0%D7%95%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92%E2%80%AD/@31.939953,34.832008,15z/data=!4m2!3m1!1s0x0:0xd0c541270f5d9990?sa=X&ved=2ahUKEwiug4jsuKPlAhWSfFAKHYLwBX0Q_BIwE3oECA0QCA"  target="_blank"  rel="noopener noreferrer" >
                 <svg width="25" style={{fill: 'white', marginLeft: '5px'}} viewBox="0 0 512 512">
                   <path d="M256 48c-79.5 0-144 59.9-144 133.7 0 104 144 282.3 144 282.3s144-178.3 144-282.3C400 107.9 335.5 48 256 48zm0 190.9c-25.9 0-46.9-21-46.9-46.9s21-46.9 46.9-46.9 46.9 21 46.9 46.9-21 46.9-46.9 46.9z"></path>
                 </svg>
@@ -66,7 +66,7 @@ const Footer = () => (
               </Link>
             </li>
             <li>
-                <a href="https://wa.me/052-4425859" target="_blank" >טלפון: 052-4425859 </a>
+                <a href="https://wa.me/052-4425859" target="_blank"   rel="noopener noreferrer" >טלפון: 052-4425859 </a>
             </li>
           </ul>
         </li>
@@ -74,7 +74,7 @@ const Footer = () => (
           <h3>הצטרפו אליי...</h3>
           <ul className="navigator-list">
             <li>
-                <a href="https://www.facebook.com/pages/%D7%A9%D7%90%D7%95%D7%9C%D7%99-%D7%9C%D7%95%D7%99-%D7%90%D7%A1%D7%98%D7%A8%D7%95-%D7%A0%D7%95%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92-%D7%99%D7%95%D7%A2%D7%A5-%D7%95%D7%9E%D7%90%D7%91%D7%97%D7%9F/151852714842615" target="_blank">
+                <a href="https://www.facebook.com/pages/%D7%A9%D7%90%D7%95%D7%9C%D7%99-%D7%9C%D7%95%D7%99-%D7%90%D7%A1%D7%98%D7%A8%D7%95-%D7%A0%D7%95%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92-%D7%99%D7%95%D7%A2%D7%A5-%D7%95%D7%9E%D7%90%D7%91%D7%97%D7%9F/151852714842615" target="_blank"  rel="noopener noreferrer" >
                   <span style={{ marginLeft: '10px' }}>
                     <img src="/static/icons/facebook.png" alt="facebook" width="18.35" />
                   </span>
