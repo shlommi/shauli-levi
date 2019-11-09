@@ -22,9 +22,7 @@ const Menu = () =>  {
           </Link>
         </li>
         <li>
-          <Link href="/contact" >
-            <a> צור קשר</a>
-          </Link>
+            <a href="http://eepurl.com/gJeIaX" rel="noopener noreferrer"> צור קשר</a>
         </li>
       </ul>
       <style jsx>{`

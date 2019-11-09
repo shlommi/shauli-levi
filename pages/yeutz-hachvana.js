@@ -1,6 +1,8 @@
 import Layout from '../components/Layout'
 import CardList from '../components/CardList';
 import Button from '../components/Button';
+import AnchorLink from '../components/AnchorLink'
+
 import SpinnerIcon from '../components/SpinnerIcon'
 
 import {useState} from 'react';
@@ -28,9 +30,9 @@ const YeutzHachvana = () => {
         <div className="yeutz-methods">
           <CardList/>
         </div>
-        <Button 
-          url="/contact" 
-          text="הגעתם ליעד, ליחצו !"
+        <AnchorLink 
+          linkText="http://eepurl.com/gJeIaX" 
+          title="הגעתם ליעד, ליחצו !"
           mt="30"
           mb="50"
           />

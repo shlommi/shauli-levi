@@ -3,6 +3,7 @@ const AnchorLink = ({ title, mt, mb, linkText}) => (
 	className="btn" 
 	style={{ marginTop: `${mt}px`, marginBottom: `${mb}px`}}
 	href={linkText}
+	rel="noopener noreferrer"
 	>{title}
 		<style jsx>
 			{`
@@ -14,6 +15,7 @@ const AnchorLink = ({ title, mt, mb, linkText}) => (
 					background-color:#263240; 
 					padding: 8px 14px;
 					transition: all 0.1s ease;
+					cursor: pointer;
 				}
 
 				a.btn:hover {
