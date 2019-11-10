@@ -49,7 +49,6 @@ const Footer = () => (
                 <svg width="25" style={{fill: 'white', marginLeft: '5px'}} viewBox="0 0 512 512">
                   <path d="M256 48c-79.5 0-144 59.9-144 133.7 0 104 144 282.3 144 282.3s144-178.3 144-282.3C400 107.9 335.5 48 256 48zm0 190.9c-25.9 0-46.9-21-46.9-46.9s21-46.9 46.9-46.9 46.9 21 46.9 46.9-21 46.9-46.9 46.9z"></path>
                 </svg>
-                 
                   איך להגיע?
                 </a>
             </li>
@@ -183,9 +182,20 @@ const Footer = () => (
               flex-direction: column;         
             }
 
+            .footer-list-item {
+              height: 240px;
+              padding-top: 10px;
+            }
+
+            .navigator-list {
+              margin-top: 20px;
+            }
+          
             .footer-list {
               flex-direction: column;
               width: 100%;
+              height: auto;
+              margin-top: 40px;
             }
 
             .footer-bottom {
@@ -200,11 +210,17 @@ const Footer = () => (
 
             .footer-list-item:nth-child(4) {
               border-bottom: none;
-              height: 120px;
+              height: 200px;
             } 
 
             .footer-list-item:nth-child(1) {
-              margin-left: 0;    
+              margin-left: 0; 
+              margin-top: 100px;   
+            }
+
+            .footer-list-item:nth-child(3) {
+              height: 200px;
+
             }
             .footer-bottom {
               display: block;
