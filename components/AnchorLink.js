@@ -3,6 +3,7 @@ const AnchorLink = ({ title, mt, mb, linkText}) => (
 	className="btn" 
 	style={{ marginTop: `${mt}px`, marginBottom: `${mb}px`}}
 	href={linkText}
+	target="_blank"
 	rel="noopener noreferrer"
 	>{title}
 		<style jsx>
