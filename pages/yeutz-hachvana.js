@@ -31,7 +31,7 @@ const YeutzHachvana = () => {
           <CardList/>
         </div>
         <AnchorLink 
-          linkText="http://eepurl.com/gJeIaX" 
+          linkText="http://eepurl.com/gJp-E1" 
           title="הגעתם ליעד, ליחצו !"
           mt="30"
           mb="50"
