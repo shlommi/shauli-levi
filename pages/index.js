@@ -2,8 +2,9 @@ import Layout from '../components/Layout';
 import Button from '../components/Button';
 import AvatarCard from '../components/AvatarCard';
 
+
 const Homepage = () => (
-    <Layout title="דף הבית">
+    <Layout title="דף הבית" description="שאולי רוה לוי, נומרולוג, גרפולוג , יועץ עיסקי, דף הבית">
       <section className="homepage-wrapper">
         <header>
           <div className="img-wrapper" >

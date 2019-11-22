@@ -26,7 +26,7 @@ const About = () => {
    const handleLoading = () => setLoading(false)
 
    return (
-      <Layout title="אודות">
+      <Layout title="אודות" description="שאולי רוה לוי, נומרולוג, גרפולוג , יועץ עיסקי, מפת חיים">
          <section className="about-wrapper">
          <header>
             <h1>אודות</h1>

@@ -13,7 +13,7 @@ const YeutzHachvana = () => {
   const handleLoading = () => setLoading(false)
 
   return (
-    <Layout title="ייעוץ והכוונה">
+    <Layout title="ייעוץ והכוונה" description="הייעוד שלך בחיים,בחירת שם לתינוק, פרנסה, זוגיות, בריאות, ייעוץ והכוונה, חתונה, קניית דירה משותפת, מפת חיים,שאולי רוה לוי, נומרולוג, גרפולוג , יועץ עיסקי,">
       <section className="yeutz-wrapper">
         <header>
           <h1> ייעוץ והכוונה</h1>

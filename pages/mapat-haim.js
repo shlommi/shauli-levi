@@ -9,7 +9,7 @@ const MapatHaim = () => {
   const handleLoading = () => setLoading(false)
 
   return (
-    <Layout title="מפת חיים">
+    <Layout title="מפת חיים" description="מפת חיים, הצלחה, פיוס, השלמה, שאולי רוה לוי, נומרולוג, גרפולוג , יועץ עיסקי,">
     <section className="mapathaim-wrapper">
       <header>
         <h1>מפת חיים </h1>
