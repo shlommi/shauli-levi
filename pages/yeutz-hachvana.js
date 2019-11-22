@@ -1,27 +1,18 @@
 import Layout from '../components/Layout'
 import CardList from '../components/CardList';
-import Button from '../components/Button';
 import AnchorLink from '../components/AnchorLink'
 
-import SpinnerIcon from '../components/SpinnerIcon'
 
-import {useState} from 'react';
 
 
 const YeutzHachvana = () => {
-  const [loading, setLoading] = useState(true)
-  const handleLoading = () => setLoading(false)
-
   return (
     <Layout title="ייעוץ והכוונה" description="הייעוד שלך בחיים,בחירת שם לתינוק, פרנסה, זוגיות, בריאות, ייעוץ והכוונה, חתונה, קניית דירה משותפת, מפת חיים,שאולי רוה לוי, נומרולוג, גרפולוג , יועץ עיסקי,">
       <section className="yeutz-wrapper">
         <header>
           <h1> ייעוץ והכוונה</h1>
         </header>
-          <div  style={{display: loading ? "block" : "none"}}>
-          <SpinnerIcon/>
-          </div> 
-        <img onLoad={handleLoading}  style={{display: loading ? "none" : "block"}} src="../static/images/blank-daylight-direction-1638830.jpg"  alt="picture"/>
+        <img src="../static/images/blank-daylight-direction-1638830.jpg"  alt="picture"/>
         <article className="yeutz-info">
           <p>
           שאולי רוה לוי אסטרו נומרולוג יועץ ומאבחן יכוון אותך לדרך חדשה בחיים. אני אראה לך איך להתמודד עם הקשיים שלך בחיים ואיך להפוך את הקשיים לקלים הרבה יותר. אני אראה לך כיצד ניתן להעניק עוצמה לחייך. אני אראה לך כיצד להתמודד עם אי-החלטות בחייך ואפתור לך המון התלבטויות בחיים. אני אכווין אותך מבחינה מקצועית, מהו המקצוע המתאים לך ובמה תהייה הכי מאושר לעבוד. אני אכווין אותך מבחינה זוגית ואגיד לך מתי הוא הזמן הנכון לזוגיות / חתונה / קניית דירה משותפת. אני אכווין אותך מבחינה עסקית, מתי הזמן הנכון לפתוח עסק חדש, האם לעבוד לבד או עם שותף. אני אראה לך את כל הדרכים הנכונות לחיים מאושרים יותר, חיים שמחים יותר, חיים שלווים יותר, חיים עם המון נחת, חיים עם אהבה רבה יותר, חיים שתמיד חלמת עליהם יש בכל אחד מאיתנו את הכוח לשנות את חייו ולהפוך אותם לטובים יותר, כל מה שצריך לעשות בשביל זה הוא רק לדעת את מרכיבי האישיות שלנו (מפת החיים שלנו) ובכך נוכל לדעת על עצמנו הרבה יותר.

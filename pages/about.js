@@ -2,9 +2,7 @@ import Layout from '../components/Layout'
 import SubTitle from '../components/SubTitle'
 import Gallery from '../components/Gallery'
 import AnchorLink from '../components/AnchorLink'
-import SpinnerIcon from '../components/SpinnerIcon'
 
-import {useState} from 'react';
 
 
 const imagesColOne = [
@@ -21,9 +19,6 @@ const imagesColTwo = [
 ];
 
 const About = () => {
- 
-   const [loading, setLoading] = useState(true)
-   const handleLoading = () => setLoading(false)
 
    return (
       <Layout title="אודות" description="שאולי רוה לוי, נומרולוג, גרפולוג , יועץ עיסקי, מפת חיים">
@@ -31,11 +26,8 @@ const About = () => {
          <header>
             <h1>אודות</h1>
          </header>
-         <article className="about-shauli">
-         <div  style={{display: loading ? "block" : "none"}}>
-				<SpinnerIcon/>
-			</div>  
-            <img onLoad={handleLoading}   style={{display: loading ? "none" : "block"}} src="../static/images/photo02.jpg"  alt="about-shauli" width="640"  />
+         <article className="about-shauli"> 
+            <img  src="../static/images/photo02.jpg"  alt="about-shauli" width="640"  />
                <p> 
                שמי שאולי רוה לוי ואני יועץ ומאבחן אישיות פסיכו-דיאגנוסטי, במגמת אסטרו-נומרולוגיה. אני מאבחן את האדם בעזרת מפת חיים אישית של האדם.
                </p>

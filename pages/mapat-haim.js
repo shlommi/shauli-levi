@@ -1,12 +1,8 @@
 import Layout from '../components/Layout'
 import AnchorLink from '../components/AnchorLink'
-import SpinnerIcon from '../components/SpinnerIcon'
 
-import {useState} from 'react';
 
 const MapatHaim = () => {
-  const [loading, setLoading] = useState(true)
-  const handleLoading = () => setLoading(false)
 
   return (
     <Layout title="מפת חיים" description="מפת חיים, הצלחה, פיוס, השלמה, שאולי רוה לוי, נומרולוג, גרפולוג , יועץ עיסקי,">
@@ -14,10 +10,7 @@ const MapatHaim = () => {
       <header>
         <h1>מפת חיים </h1>
       </header>
-      <div  style={{display: loading ? "block" : "none"}}>
-				<SpinnerIcon/>
-			</div> 
-      <img onLoad={handleLoading} style={{display: loading ? "none" : "block"}} src="../static/images/black-and-white-light-man-172738.jpg"  alt="picture"/>
+      <img   src="../static/images/black-and-white-light-man-172738.jpg"  alt="picture"/>
       <article className="mapathaim-info">
         <p>מהי מפת חיים אישית?</p>
         <p>בהבנת מפת אישיות האדם יוכל כל אחד לדעת את מאפייניו וכישוריו ואת הפוטנציאלים הגלומים במפת לידתו וכן יוכל לזהות את הצרכים הבסיסיים שלו, השאיפות והרצונות, וזיהוי היכולות להגשים את הייעוד בכל שלב ושלב בחיים. הייעוץ מעניק ידע מעמיק כדי להכיר את נפש האדם ואת אישיותו ולהכיר את צפונות ליבו על מנת לשפר את איכות חייו ולשפר את כישוריו המקצועיים, המשפחתיים, הציבוריים והחברתיים. אני מאמין כי המודעות העצמית שתבוא בעקבות האבחון תוביל לשינוי, לשיפור והתייעלות בכל תחומי החיים. האבחון יצליח להחדיר את החדווה והרצון לרצות להתפתח, להתעצם ולרכוש ביטחון עצמי, לרצות לעזור ליקרים ולמקורבים תוך פיוס והשלמה ולהאמין שראייה אופטימית יוצרת את מציאות העתיד.</p>
